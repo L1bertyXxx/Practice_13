@@ -10,10 +10,13 @@ class Restaurant:
     def open_restaurant(self):
         print(f"Ресторан {self.restaurant_name} открыт!\n")
 
-newRestaurant = Restaurant("McDonalds", "фастфуд")
+restaurant1 = Restaurant("McDonald's", "фастфуд")
+restaurant2 = Restaurant("Harvest", "Европейская")
+restaurant3 = Restaurant("Bona Capona", "Итальянская")
 
-print(newRestaurant.restaurant_name)
-print(newRestaurant.cuisine_type)
-
-newRestaurant.describe_restaurant()
-newRestaurant.open_restaurant()
+print("Описание ресторанов:")
+restaurant1.describe_restaurant()
+print()
+restaurant2.describe_restaurant()
+print()
+restaurant3.describe_restaurant()
