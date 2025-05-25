@@ -14,6 +14,7 @@ restaurant1 = Restaurant("McDonald's", "фастфуд")
 restaurant2 = Restaurant("Harvest", "Европейская")
 restaurant3 = Restaurant("Bona Capona", "Итальянская")
 
+
 print("Описание ресторанов:")
 restaurant1.describe_restaurant()
 print()
